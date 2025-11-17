@@ -77,3 +77,6 @@ print(nome.title())
 #Atividade 2 => Obrifgatoriamente quando nao e a primeira 
 #letra tem que estar em minúsculo (lower)
 # NyCoLlas weNnDy SoBolevsKI => Nycollas Wenndy Sobolevski 
+fruta = 'banana'
+comeco = fruta[2:5]
+print(comeco)
