@@ -22,3 +22,49 @@
 # print(sorted(lista))
 # lista.sort()
 # print(lista)
+
+
+
+# top10 = (
+#     "Bezos ",
+#     "Gates",
+#     "Buffet",
+#     "Arnault",
+#     "Slim",
+#     "ortega",
+#     "ellison",
+#     "Zuckerberg",
+#     "Bloomberg",
+#     "Page"
+# )
+# print("Os 10 mais ricos do mundo são: ", top10)
+# print("Os 3 mais ricos do mundo são: ", top10[:3])
+# print("O mai rico do mundo é: ", top10[0])
+
+
+
+# eng2sp = {
+#     "one": "uno",
+#     "two": 12,
+#     "three": False
+# }
+
+# print(eng2sp['two'])
+
+
+
+menu = {
+    "hamburguer": 10,
+    "hotdog": 6.5,
+    "salada": 4,
+    'suco': 4,
+    'refri': 4.5,
+    'agua': 2
+}
+
+print("Menu FastFood: ", menu)
+comida = input("Digite a comida que deseja: ").lower()
+bebida = input("Digite a bebida que deseja: ").lower()
+
+valor_total = menu[comida] + menu[bebida]
+print(f"Valor total é de {valor_total} reais")
