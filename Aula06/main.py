@@ -52,19 +52,55 @@
 # print(eng2sp['two'])
 
 
+# menu = {
+#     "hamburguer": 10,
+#     "hotdog": 6.5,
+#     "salada": 4,
+#     'suco': 4,
+#     'refri': 4.5,
+#     'agua': 2
+# }
 
-menu = {
-    "hamburguer": 10,
-    "hotdog": 6.5,
-    "salada": 4,
-    'suco': 4,
-    'refri': 4.5,
-    'agua': 2
-}
+# print("Menu FastFood: ", menu)
+# comida = input("Digite a comida que deseja: ").lower()
+# bebida = input("Digite a bebida que deseja: ").lower()
 
-print("Menu FastFood: ", menu)
-comida = input("Digite a comida que deseja: ").lower()
-bebida = input("Digite a bebida que deseja: ").lower()
+# valor_total = menu[comida] + menu[bebida]
+# print(f"Valor total é de {valor_total} reais")
 
-valor_total = menu[comida] + menu[bebida]
-print(f"Valor total é de {valor_total} reais")
+
+
+turma = {}
+
+aluno01 = input("Insira o nome do primeiro aluno: ")
+
+nota01 = float(input("Insira a primeira nota: "))
+nota02 = float(input("Insira a segunda nota: "))
+nota03 = float(input("Insira a terceira nota: "))
+
+notas = [nota01, nota02, nota03]
+
+turma[aluno01] = notas
+
+aluno02 = input("Insira o nome do segundo aluno: ")
+
+nota01 = float(input("Insira a primeira nota: "))
+nota02 = float(input("Insira a segunda nota: "))
+nota03 = float(input("Insira a terceira nota: "))
+
+notas = [nota01, nota02, nota03]
+
+turma[aluno02] = notas
+aluno03 = input("Insira o nome do segundo aluno: ")
+
+nota01 = float(input("Insira a primeira nota: "))
+nota02 = float(input("Insira a segunda nota: "))
+nota03 = float(input("Insira a terceira nota: "))
+
+notas = [nota01, nota02, nota03]
+
+turma[aluno03] = notas
+
+print(f"Aluno: {aluno01} - Média: {sum(turma[aluno01])/3}")
+print(f"Aluno: {aluno02} - Média: {sum(turma[aluno02])/3}")
+print(f"Aluno: {aluno03} - Média: {sum(turma[aluno03])/3}")
