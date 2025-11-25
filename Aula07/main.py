@@ -43,3 +43,14 @@
 #     print("O palpite é um numero invalido! ")
 
 
+# ano = int(input("Insira o ano que nasceu: "))
+# idade = 2025 - ano
+# print(f"Idade: {idade} anos")
+# if idade < 16: 
+#     print("Não é permitido votar, pois a pessoa é mais nova!")
+# elif idade >= 16 and idade < 18:
+#     print("o voto é facultativo")
+# elif idade < 70:
+#     print("o voto é obrigatório")
+# else: 
+#     print("O voto é facultativo pois a pessoa é idosa!")
