@@ -54,3 +54,30 @@
 #     print("o voto é obrigatório")
 # else: 
 #     print("O voto é facultativo pois a pessoa é idosa!")
+
+
+# a = 0
+
+# while a <= 5:
+#     print(a)
+#     a = a + 1
+
+
+# contador = 0
+
+# while contador <= 20: 
+#     print(contador)
+#     contador += 2
+
+
+contador = 0
+soma = 0
+
+final = int(input("insira o limite maximo: "))
+
+while contador <= final: 
+    print(f"+ {contador}",end=" ")
+    soma += contador
+    contador += 1
+
+print(f"= {soma}")
