@@ -70,14 +70,76 @@
 #     contador += 2
 
 
-contador = 0
-soma = 0
+# contador = 0
+# soma = 0
 
-final = int(input("insira o limite maximo: "))
+# final = int(input("insira o limite maximo: "))
 
-while contador <= final: 
-    print(f"+ {contador}",end=" ")
-    soma += contador
-    contador += 1
+# while contador <= final: 
+#     print(f"+ {contador}",end=" ")
+#     soma += contador
+#     contador += 1
 
-print(f"= {soma}")
+# print(f"= {soma}")
+
+
+# atividade entrega while: 
+
+# para a atividade de hoje, faça igual a atividade de dicionários, porem com while. Ou seja, primeiramente pergunte quantos alunos o usuário quer inserir no dicionário, em seguida peça os seus dados. por fim mostre o dicionário e as medias dos respectivos alunos:
+# Solucao de aluno
+# alunos = {}
+
+# quantidade = int(input("Insira a quantidade de alunos: "))
+# index = 0
+
+# while index < quantidade: # enquanto index for menor que a quantidade de alunos
+#     nome = input(f"Insira o nome do {index + 1}° aluno: ").title()
+#     # notas = input("Insira as notas separadas por ' ': ").split(' ')
+#     notas = []
+#     notas.append(int(input("Insira a Primeira nota: ")))
+#     notas.append(int(input("Insira a Segunda nota: ")))
+#     notas.append(int(input("Insira a Terceira nota: ")))
+
+#     alunos[nome] = notas
+
+#     index += 1
+
+# lista = list(alunos.items()) # [('nycollas', [1,2,3]), ('joaosinho', [3,2,1])]
+# index = 0
+# while index < len(lista):
+#     aluno, notas = lista[index] 
+#     soma = 0
+#     j = 0
+#     while j < len(notas):
+#         soma += notas[j]
+#         media = soma / len(notas)
+#         print(f'{aluno}: {media:.2f}')
+#         index += 1
+    
+import math
+
+
+alunos = {}
+nomes = []
+quantidade = int(input("Insira a quantidade de alunos: "))
+index = 0
+
+while index < quantidade: # enquanto index for menor que a quantidade de alunos
+    nome = input(f"Insira o nome do {index + 1}° aluno: ").title()
+
+    notas = []
+    notas.append(int(input("Insira a Primeira nota: ")))
+    notas.append(int(input("Insira a Segunda nota: ")))
+    notas.append(int(input("Insira a Terceira nota: ")))
+
+    alunos[nome] = notas
+    nomes.append(nome)
+
+    index += 1
+
+index = 0
+while index < quantidade: 
+    aluno = nomes[index]
+    media = sum(alunos[aluno]) / len(alunos[aluno])
+    print(f'{aluno}: {media}')
+    index += 1
