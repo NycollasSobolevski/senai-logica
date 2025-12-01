@@ -116,30 +116,106 @@
 #         print(f'{aluno}: {media:.2f}')
 #         index += 1
     
-import math
+# import math
 
 
-alunos = {}
-nomes = []
-quantidade = int(input("Insira a quantidade de alunos: "))
-index = 0
+# alunos = {}
+# nomes = []
+# quantidade = int(input("Insira a quantidade de alunos: "))
+# index = 0
 
-while index < quantidade: # enquanto index for menor que a quantidade de alunos
-    nome = input(f"Insira o nome do {index + 1}° aluno: ").title()
+# while index < quantidade: # enquanto index for menor que a quantidade de alunos
+#     nome = input(f"Insira o nome do {index + 1}° aluno: ").title()
 
-    notas = []
-    notas.append(int(input("Insira a Primeira nota: ")))
-    notas.append(int(input("Insira a Segunda nota: ")))
-    notas.append(int(input("Insira a Terceira nota: ")))
+#     notas = []
+#     notas.append(int(input("Insira a Primeira nota: ")))
+#     notas.append(int(input("Insira a Segunda nota: ")))
+#     notas.append(int(input("Insira a Terceira nota: ")))
 
-    alunos[nome] = notas
-    nomes.append(nome)
+#     alunos[nome] = notas
+#     nomes.append(nome)
 
-    index += 1
+#     index += 1
 
-index = 0
-while index < quantidade: 
-    aluno = nomes[index]
-    media = sum(alunos[aluno]) / len(alunos[aluno])
-    print(f'{aluno}: {media}')
-    index += 1
+# index = 0
+# while index < quantidade: 
+#     aluno = nomes[index]
+#     media = sum(alunos[aluno]) / len(alunos[aluno])
+#     print(f'{aluno}: {media}')
+#     index += 1
+
+
+# alunos = {}
+
+# while True:
+#     print("""
+#         1 - Inserir usuário
+#         2 - Encerrar Programa
+#     """)
+#     escolha = input()
+    
+#     if not escolha.isdigit():
+#         print('Insira um numero válido! ')
+#         continue
+#     print('é um numero válido')
+#     if int(escolha) == 2:
+#         break
+
+#     nome = input("insira o nome:")
+#     notas = []
+#     notas.append(int(input('insira a primeira nota: ')))
+#     notas.append(int(input('insira a segunda nota: ')))
+#     notas.append(int(input('insira a terceira nota: ')))
+#     alunos[nome] = notas
+
+
+# print(alunos)
+
+
+
+#calculadora
+
+
+# from unittest import result
+
+
+# while True:
+#     numA = float(input('Insira o valor de A: '))
+#     numB = float(input('Insira o valor de B: '))
+#     resultado = -1
+
+#     print("""
+#     Digite: 
+#         1- Soma
+#         2- Subtração
+#         3- Multiplicação
+#         4- Divisão
+#         0- Sair
+#     """)
+#     escolha = int(input())
+
+#     if escolha == 0:
+#         break
+
+#     if escolha == 1:
+#         resultado = numA+numB
+#     elif escolha == 2:
+#         resultado = numA-numB
+#     elif escolha == 3:
+#         resultado = numA*numB
+#     elif escolha == 4:
+#         resultado = numA/numB
+#     print(f'Resultado: {resultado}')
+#     escolha = input('Para sair insira 0; para continuar insira qualquer tecla')
+#     if escolha == '0':
+#         break
+
+
+# limite = int(input('Insira o limite de index da sequencia: '))
+# atual = 0
+# aux   = 1
+# # 0, 1, 1, 2, 3, 5, 8, 13, 21, 34...
+# for index in range(limite):
+#     aux = atual
+#     atual = atual + aux
+#     print(atual, end=' ')
