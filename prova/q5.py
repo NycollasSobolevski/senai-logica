@@ -122,35 +122,3 @@ list = [
 ]
 
 #organizando uma lista para cada linha
-
-l4 = []
-l5 = []
-l6 = []
-l7 = []
-
-# Adicionando os objetos nas respectivas listas
-for i in list:
-    if i['linha'] == 4:
-        l4.append(i)
-    elif i['linha'] == 5:
-        l5.append(i)
-    else :
-        l6.append(i)
-
-l4.sort(key=lambda x: x['coluna'])
-l6.sort(key=lambda x: x['coluna'])
-
-#mostrando na tela o valor das a
-for i in l4:
-    print(i['letra'], end='')
-for i in l5:
-    print(i['letra'], end='')
-for i in l6:
-    print(i['letra'], end='')
-
-
-list.sort(key=lambda x: x['coluna'])
-list.sort(key=lambda x: x['linha'])
-print('\n\n')
-for i in list:
-    print(i['letra'], end='')
