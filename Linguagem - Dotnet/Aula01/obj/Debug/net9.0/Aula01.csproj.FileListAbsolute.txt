@@ -1,0 +1,15 @@
+C:\Users\son5ct\Desktop\Aulas]\SENAI\Turma-Quartel\Linguagem - Dotnet\Aula01\bin\Debug\net9.0\Aula01.exe
+C:\Users\son5ct\Desktop\Aulas]\SENAI\Turma-Quartel\Linguagem - Dotnet\Aula01\bin\Debug\net9.0\Aula01.deps.json
+C:\Users\son5ct\Desktop\Aulas]\SENAI\Turma-Quartel\Linguagem - Dotnet\Aula01\bin\Debug\net9.0\Aula01.runtimeconfig.json
+C:\Users\son5ct\Desktop\Aulas]\SENAI\Turma-Quartel\Linguagem - Dotnet\Aula01\bin\Debug\net9.0\Aula01.dll
+C:\Users\son5ct\Desktop\Aulas]\SENAI\Turma-Quartel\Linguagem - Dotnet\Aula01\bin\Debug\net9.0\Aula01.pdb
+C:\Users\son5ct\Desktop\Aulas]\SENAI\Turma-Quartel\Linguagem - Dotnet\Aula01\obj\Debug\net9.0\Aula01.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\son5ct\Desktop\Aulas]\SENAI\Turma-Quartel\Linguagem - Dotnet\Aula01\obj\Debug\net9.0\Aula01.AssemblyInfoInputs.cache
+C:\Users\son5ct\Desktop\Aulas]\SENAI\Turma-Quartel\Linguagem - Dotnet\Aula01\obj\Debug\net9.0\Aula01.AssemblyInfo.cs
+C:\Users\son5ct\Desktop\Aulas]\SENAI\Turma-Quartel\Linguagem - Dotnet\Aula01\obj\Debug\net9.0\Aula01.csproj.CoreCompileInputs.cache
+C:\Users\son5ct\Desktop\Aulas]\SENAI\Turma-Quartel\Linguagem - Dotnet\Aula01\obj\Debug\net9.0\Aula01.sourcelink.json
+C:\Users\son5ct\Desktop\Aulas]\SENAI\Turma-Quartel\Linguagem - Dotnet\Aula01\obj\Debug\net9.0\Aula01.dll
+C:\Users\son5ct\Desktop\Aulas]\SENAI\Turma-Quartel\Linguagem - Dotnet\Aula01\obj\Debug\net9.0\refint\Aula01.dll
+C:\Users\son5ct\Desktop\Aulas]\SENAI\Turma-Quartel\Linguagem - Dotnet\Aula01\obj\Debug\net9.0\Aula01.pdb
+C:\Users\son5ct\Desktop\Aulas]\SENAI\Turma-Quartel\Linguagem - Dotnet\Aula01\obj\Debug\net9.0\Aula01.genruntimeconfig.cache
+C:\Users\son5ct\Desktop\Aulas]\SENAI\Turma-Quartel\Linguagem - Dotnet\Aula01\obj\Debug\net9.0\ref\Aula01.dll
